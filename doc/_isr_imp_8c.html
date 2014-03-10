@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3.1"/>
+<title>Sliding Puzzle: Referencia del Archivo IsrImp.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="sliding_puzzle1M.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Sliding Puzzle
+   &#160;<span id="projectnumber">1</span>
+   </div>
+   <div id="projectbrief">Proyecto de Micro 1</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.3.1 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="annotated.html"><span>Estructuras&#160;de&#160;Datos</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Globales</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_isr_imp_8c.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#define-members">'defines'</a> &#124;
+<a href="#func-members">Funciones</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo IsrImp.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Se implementan las ISR de las diferentes interrupciones.  
+<a href="#details">Más...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="_func_type_8h_source.html">FuncType.h</a>&quot;</code><br/>
+<code>#include &lt;avr/interrupt.h&gt;</code><br/>
+<code>#include &lt;util/delay.h&gt;</code><br/>
+<code>#include &lt;string.h&gt;</code><br/>
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Dependencia gráfica adjunta para IsrImp.c:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="_isr_imp_8c__incl.png" border="0" usemap="#_isr_imp_8c" alt=""/></div>
+<map name="_isr_imp_8c" id="_isr_imp_8c">
+<area shape="rect" id="node3" href="_func_type_8h.html" title="Tipos y prototipos de las funciones." alt="" coords="5,83,96,112"/></map>
+</div>
+</div>
+<p><a href="_isr_imp_8c_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+'defines'</h2></td></tr>
+<tr class="memitem:a43bafb28b29491ec7f871319b5a3b2f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_isr_imp_8c.html#a43bafb28b29491ec7f871319b5a3b2f8">F_CPU</a>&#160;&#160;&#160;16000000UL</td></tr>
+<tr class="separator:a43bafb28b29491ec7f871319b5a3b2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add3ca9eefe3b5b754426f51d3043e579"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_isr_imp_8c.html#add3ca9eefe3b5b754426f51d3043e579">True</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:add3ca9eefe3b5b754426f51d3043e579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a306ebd41c0cd1303b1372c6153f0caf8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_isr_imp_8c.html#a306ebd41c0cd1303b1372c6153f0caf8">False</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a306ebd41c0cd1303b1372c6153f0caf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a22acfb428840c6d9aa212764589cf6c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_isr_imp_8c.html#a22acfb428840c6d9aa212764589cf6c6">ISR</a> (INT1_vect)</td></tr>
+<tr class="memdesc:a22acfb428840c6d9aa212764589cf6c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Codigo relacionado con el evento de presionar el boton de arriba.  <a href="#a22acfb428840c6d9aa212764589cf6c6">Más...</a><br/></td></tr>
+<tr class="separator:a22acfb428840c6d9aa212764589cf6c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30a0ad88a89a84c0161cf09eace108e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_isr_imp_8c.html#a30a0ad88a89a84c0161cf09eace108e8">ISR</a> (INT2_vect)</td></tr>
+<tr class="memdesc:a30a0ad88a89a84c0161cf09eace108e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Codigo relacionado con el evento de presionar el boton de abajo.  <a href="#a30a0ad88a89a84c0161cf09eace108e8">Más...</a><br/></td></tr>
+<tr class="separator:a30a0ad88a89a84c0161cf09eace108e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb317b866862d87d8da1370f9cdd68dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_isr_imp_8c.html#acb317b866862d87d8da1370f9cdd68dc">ISR</a> (INT3_vect)</td></tr>
+<tr class="memdesc:acb317b866862d87d8da1370f9cdd68dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Codigo relacionado con el evento de presionar el boton de moverse a la derecha.  <a href="#acb317b866862d87d8da1370f9cdd68dc">Más...</a><br/></td></tr>
+<tr class="separator:acb317b866862d87d8da1370f9cdd68dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98a290ada01eb27fd2ff4564371566e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_isr_imp_8c.html#a98a290ada01eb27fd2ff4564371566e5">ISR</a> (INT4_vect)</td></tr>
+<tr class="memdesc:a98a290ada01eb27fd2ff4564371566e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Codigo relacionado con el evento de presionar el boton hacia la izquierda.  <a href="#a98a290ada01eb27fd2ff4564371566e5">Más...</a><br/></td></tr>
+<tr class="separator:a98a290ada01eb27fd2ff4564371566e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afea150fcd685610cb9f7672fce361e53"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_isr_imp_8c.html#afea150fcd685610cb9f7672fce361e53">ISR</a> (INT0_vect)</td></tr>
+<tr class="memdesc:afea150fcd685610cb9f7672fce361e53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rutina que se ejecuta cuando se presiona el boton de Mover.  <a href="#afea150fcd685610cb9f7672fce361e53">Más...</a><br/></td></tr>
+<tr class="separator:afea150fcd685610cb9f7672fce361e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6225c50fbafa01589351ed487223aacb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_isr_imp_8c.html#a6225c50fbafa01589351ed487223aacb">ISR</a> (INT5_vect)</td></tr>
+<tr class="separator:a6225c50fbafa01589351ed487223aacb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a0aea93957e9f0dd2ee59de3e04f398a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structjuego.html">juego</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_isr_imp_8c.html#a0aea93957e9f0dd2ee59de3e04f398a6">variablesJuego</a></td></tr>
+<tr class="separator:a0aea93957e9f0dd2ee59de3e04f398a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Se implementan las ISR de las diferentes interrupciones. </p>
+
+<p>Definición en el archivo <a class="el" href="_isr_imp_8c_source.html">IsrImp.c</a>.</p>
+</div><h2 class="groupheader">Documentación de los 'defines'</h2>
+<a class="anchor" id="a43bafb28b29491ec7f871319b5a3b2f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define F_CPU&#160;&#160;&#160;16000000UL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_isr_imp_8c_source.html#l00005">5</a> del archivo <a class="el" href="_isr_imp_8c_source.html">IsrImp.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a306ebd41c0cd1303b1372c6153f0caf8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define False&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_isr_imp_8c_source.html#l00007">7</a> del archivo <a class="el" href="_isr_imp_8c_source.html">IsrImp.c</a>.</p>
+
+<p>Referenciado por <a class="el" href="_isr_imp_8c_source.html#l00125">ISR()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add3ca9eefe3b5b754426f51d3043e579"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define True&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_isr_imp_8c_source.html#l00006">6</a> del archivo <a class="el" href="_isr_imp_8c_source.html">IsrImp.c</a>.</p>
+
+<p>Referenciado por <a class="el" href="_isr_imp_8c_source.html#l00019">ISR()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones</h2>
+<a class="anchor" id="a22acfb428840c6d9aa212764589cf6c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ISR </td>
+          <td>(</td>
+          <td class="paramtype">INT1_vect&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Codigo relacionado con el evento de presionar el boton de arriba. </p>
+
+<p>Definición en la línea <a class="el" href="_isr_imp_8c_source.html#l00019">19</a> del archivo <a class="el" href="_isr_imp_8c_source.html">IsrImp.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="_func_imp_8c_source.html#l00121">checkLimit()</a>, <a class="el" href="_func_type_8h_source.html#l00056">juego::control</a>, <a class="el" href="_func_type_8h_source.html#l00038">juego::cursorPantalla</a>, <a class="el" href="_func_type_8h_source.html#l00040">juego::indiceArreglo</a>, <a class="el" href="_func_type_8h_source.html#l00078">juego::inGame</a>, <a class="el" href="_func_type_8h_source.html#l00082">juego::posCursor</a>, <a class="el" href="_func_type_8h_source.html#l00076">juego::seleccionScreen</a>, <a class="el" href="_func_type_8h_source.html#l00046">juego::tablero1</a>, <a class="el" href="_isr_imp_8c_source.html#l00006">True</a>, <a class="el" href="_func_type_8h_source.html#l00049">juego::valorCasilla</a>, <a class="el" href="_func_type_8h_source.html#l00009">posicion::x</a> y <a class="el" href="_func_type_8h_source.html#l00010">posicion::y</a>.</p>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Gráfico de llamadas para esta función:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="_isr_imp_8c_a22acfb428840c6d9aa212764589cf6c6_cgraph.png" border="0" usemap="#_isr_imp_8c_a22acfb428840c6d9aa212764589cf6c6_cgraph" alt=""/></div>
+<map name="_isr_imp_8c_a22acfb428840c6d9aa212764589cf6c6_cgraph" id="_isr_imp_8c_a22acfb428840c6d9aa212764589cf6c6_cgraph">
+<area shape="rect" id="node3" href="_func_imp_8c.html#a896c75a20ac6296ad07554adccc014c5" title="Verifica si se puede mover el cursor dependiendo el tipo de movimiento." alt="" coords="96,5,181,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a30a0ad88a89a84c0161cf09eace108e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ISR </td>
+          <td>(</td>
+          <td class="paramtype">INT2_vect&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Codigo relacionado con el evento de presionar el boton de abajo. </p>
+
+<p>Definición en la línea <a class="el" href="_isr_imp_8c_source.html#l00055">55</a> del archivo <a class="el" href="_isr_imp_8c_source.html">IsrImp.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="_func_imp_8c_source.html#l00121">checkLimit()</a>, <a class="el" href="_func_type_8h_source.html#l00056">juego::control</a>, <a class="el" href="_func_type_8h_source.html#l00038">juego::cursorPantalla</a>, <a class="el" href="_func_type_8h_source.html#l00040">juego::indiceArreglo</a>, <a class="el" href="_func_type_8h_source.html#l00078">juego::inGame</a>, <a class="el" href="_func_type_8h_source.html#l00082">juego::posCursor</a>, <a class="el" href="_func_type_8h_source.html#l00076">juego::seleccionScreen</a>, <a class="el" href="_func_type_8h_source.html#l00046">juego::tablero1</a>, <a class="el" href="_isr_imp_8c_source.html#l00006">True</a>, <a class="el" href="_func_type_8h_source.html#l00049">juego::valorCasilla</a>, <a class="el" href="_func_type_8h_source.html#l00009">posicion::x</a> y <a class="el" href="_func_type_8h_source.html#l00010">posicion::y</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Gráfico de llamadas para esta función:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="_isr_imp_8c_a30a0ad88a89a84c0161cf09eace108e8_cgraph.png" border="0" usemap="#_isr_imp_8c_a30a0ad88a89a84c0161cf09eace108e8_cgraph" alt=""/></div>
+<map name="_isr_imp_8c_a30a0ad88a89a84c0161cf09eace108e8_cgraph" id="_isr_imp_8c_a30a0ad88a89a84c0161cf09eace108e8_cgraph">
+<area shape="rect" id="node3" href="_func_imp_8c.html#a896c75a20ac6296ad07554adccc014c5" title="Verifica si se puede mover el cursor dependiendo el tipo de movimiento." alt="" coords="96,5,181,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="acb317b866862d87d8da1370f9cdd68dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ISR </td>
+          <td>(</td>
+          <td class="paramtype">INT3_vect&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Codigo relacionado con el evento de presionar el boton de moverse a la derecha. </p>
+
+<p>Definición en la línea <a class="el" href="_isr_imp_8c_source.html#l00089">89</a> del archivo <a class="el" href="_isr_imp_8c_source.html">IsrImp.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="_func_imp_8c_source.html#l00121">checkLimit()</a>, <a class="el" href="_func_type_8h_source.html#l00056">juego::control</a>, <a class="el" href="_func_type_8h_source.html#l00038">juego::cursorPantalla</a>, <a class="el" href="_func_type_8h_source.html#l00040">juego::indiceArreglo</a>, <a class="el" href="_func_type_8h_source.html#l00046">juego::tablero1</a>, <a class="el" href="_func_type_8h_source.html#l00049">juego::valorCasilla</a>, <a class="el" href="_func_type_8h_source.html#l00009">posicion::x</a> y <a class="el" href="_func_type_8h_source.html#l00010">posicion::y</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Gráfico de llamadas para esta función:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="_isr_imp_8c_acb317b866862d87d8da1370f9cdd68dc_cgraph.png" border="0" usemap="#_isr_imp_8c_acb317b866862d87d8da1370f9cdd68dc_cgraph" alt=""/></div>
+<map name="_isr_imp_8c_acb317b866862d87d8da1370f9cdd68dc_cgraph" id="_isr_imp_8c_acb317b866862d87d8da1370f9cdd68dc_cgraph">
+<area shape="rect" id="node3" href="_func_imp_8c.html#a896c75a20ac6296ad07554adccc014c5" title="Verifica si se puede mover el cursor dependiendo el tipo de movimiento." alt="" coords="96,5,181,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a98a290ada01eb27fd2ff4564371566e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ISR </td>
+          <td>(</td>
+          <td class="paramtype">INT4_vect&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Codigo relacionado con el evento de presionar el boton hacia la izquierda. </p>
+
+<p>Definición en la línea <a class="el" href="_isr_imp_8c_source.html#l00107">107</a> del archivo <a class="el" href="_isr_imp_8c_source.html">IsrImp.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="_func_imp_8c_source.html#l00121">checkLimit()</a>, <a class="el" href="_func_type_8h_source.html#l00056">juego::control</a>, <a class="el" href="_func_type_8h_source.html#l00038">juego::cursorPantalla</a>, <a class="el" href="_func_type_8h_source.html#l00040">juego::indiceArreglo</a>, <a class="el" href="_func_type_8h_source.html#l00046">juego::tablero1</a>, <a class="el" href="_func_type_8h_source.html#l00049">juego::valorCasilla</a>, <a class="el" href="_func_type_8h_source.html#l00009">posicion::x</a> y <a class="el" href="_func_type_8h_source.html#l00010">posicion::y</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Gráfico de llamadas para esta función:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="_isr_imp_8c_a98a290ada01eb27fd2ff4564371566e5_cgraph.png" border="0" usemap="#_isr_imp_8c_a98a290ada01eb27fd2ff4564371566e5_cgraph" alt=""/></div>
+<map name="_isr_imp_8c_a98a290ada01eb27fd2ff4564371566e5_cgraph" id="_isr_imp_8c_a98a290ada01eb27fd2ff4564371566e5_cgraph">
+<area shape="rect" id="node3" href="_func_imp_8c.html#a896c75a20ac6296ad07554adccc014c5" title="Verifica si se puede mover el cursor dependiendo el tipo de movimiento." alt="" coords="96,5,181,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="afea150fcd685610cb9f7672fce361e53"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ISR </td>
+          <td>(</td>
+          <td class="paramtype">INT0_vect&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rutina que se ejecuta cuando se presiona el boton de Mover. </p>
+
+<p>Definición en la línea <a class="el" href="_isr_imp_8c_source.html#l00125">125</a> del archivo <a class="el" href="_isr_imp_8c_source.html">IsrImp.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="_func_imp_8c_source.html#l00165">canMove()</a>, <a class="el" href="_func_type_8h_source.html#l00042">juego::casillaVacia</a>, <a class="el" href="_func_type_8h_source.html#l00044">juego::casillaVacia_Pantalla</a>, <a class="el" href="_func_type_8h_source.html#l00051">juego::Contenido_seleccion</a>, <a class="el" href="_func_type_8h_source.html#l00056">juego::control</a>, <a class="el" href="_func_type_8h_source.html#l00038">juego::cursorPantalla</a>, <a class="el" href="_isr_imp_8c_source.html#l00007">False</a>, <a class="el" href="_func_type_8h_source.html#l00068">juego::id_a_Mover</a>, <a class="el" href="_func_type_8h_source.html#l00070">juego::idDestino</a>, <a class="el" href="_func_type_8h_source.html#l00040">juego::indiceArreglo</a>, <a class="el" href="_func_type_8h_source.html#l00078">juego::inGame</a>, <a class="el" href="_func_type_8h_source.html#l00053">juego::mover</a>, <a class="el" href="_func_type_8h_source.html#l00066">juego::mover_Pantalla_x</a>, <a class="el" href="_func_type_8h_source.html#l00064">juego::mover_Pantalla_y</a>, <a class="el" href="_func_type_8h_source.html#l00060">juego::mover_x</a>, <a class="el" href="_func_type_8h_source.html#l00062">juego::mover_y</a>, <a class="el" href="_func_type_8h_source.html#l00072">juego::puntuacion</a>, <a class="el" href="_func_type_8h_source.html#l00074">juego::puntuacion_pantalla</a>, <a class="el" href="_func_type_8h_source.html#l00058">juego::Seleccion_On</a>, <a class="el" href="_func_type_8h_source.html#l00076">juego::seleccionScreen</a>, <a class="el" href="_func_type_8h_source.html#l00046">juego::tablero1</a>, <a class="el" href="_isr_imp_8c_source.html#l00006">True</a>, <a class="el" href="_func_type_8h_source.html#l00049">juego::valorCasilla</a>, <a class="el" href="_func_type_8h_source.html#l00009">posicion::x</a> y <a class="el" href="_func_type_8h_source.html#l00010">posicion::y</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Gráfico de llamadas para esta función:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="_isr_imp_8c_afea150fcd685610cb9f7672fce361e53_cgraph.png" border="0" usemap="#_isr_imp_8c_afea150fcd685610cb9f7672fce361e53_cgraph" alt=""/></div>
+<map name="_isr_imp_8c_afea150fcd685610cb9f7672fce361e53_cgraph" id="_isr_imp_8c_afea150fcd685610cb9f7672fce361e53_cgraph">
+<area shape="rect" id="node3" href="_func_imp_8c.html#adaa4a4335b0c776a6a2c3700376a4276" title="Determina si se puede colocar una letra en una casilla especificada." alt="" coords="97,5,169,35"/><area shape="rect" id="node5" href="_func_imp_8c.html#ac5bbc6a39ad372bb96dbb68212ebfff5" title="Determina si la posicion esta en los limites permitidos." alt="" coords="219,5,272,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6225c50fbafa01589351ed487223aacb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ISR </td>
+          <td>(</td>
+          <td class="paramtype">INT5_vect&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_isr_imp_8c_source.html#l00196">196</a> del archivo <a class="el" href="_isr_imp_8c_source.html">IsrImp.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="_func_type_8h_source.html#l00056">juego::control</a>, <a class="el" href="_isr_imp_8c_source.html#l00007">False</a>, <a class="el" href="_func_type_8h_source.html#l00078">juego::inGame</a>, <a class="el" href="_func_type_8h_source.html#l00080">juego::resetPushed</a> y <a class="el" href="_isr_imp_8c_source.html#l00006">True</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las variables</h2>
+<a class="anchor" id="a0aea93957e9f0dd2ee59de3e04f398a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structjuego.html">juego</a> variablesJuego</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Variables de control relacionadas con el juego </p>
+
+<p>Definición en la línea <a class="el" href="_prueba__proyecto_8c_source.html#l00018">18</a> del archivo <a class="el" href="_prueba__proyecto_8c_source.html">Prueba_proyecto.c</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_e6bb53534ac0e427887cf7a94c0c004e.html">C:</a></li><li class="navelem"><a class="el" href="dir_8ceffd4ee35c3518d4e8bdc7e638efe8.html">Users</a></li><li class="navelem"><a class="el" href="dir_ba34e52072f8d3a4239647430d86a8a3.html">Amaury</a></li><li class="navelem"><a class="el" href="dir_555fd5fff3dd7c59bb294a1fe59ae3d2.html">Desktop</a></li><li class="navelem"><a class="el" href="dir_bc51c73a65003a00539af0017f49a2a2.html">foo</a></li><li class="navelem"><a class="el" href="_isr_imp_8c.html">IsrImp.c</a></li>
+    <li class="footer">Generado el Miércoles, 24 de Abril de 2013 23:13:01 para Sliding Puzzle por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
+  </ul>
+</div>
+</body>
+</html>

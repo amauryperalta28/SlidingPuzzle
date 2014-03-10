@@ -1,0 +1,5 @@
+<map id="FuncType.h" name="FuncType.h">
+<area shape="rect" id="node3" href="$_prueba__proyecto_8c.html" title="Aqui se escribe el codigo necesario para el juego." alt="" coords="5,83,136,112"/>
+<area shape="rect" id="node5" href="$_func_imp_8c.html" title="Implementacion de las funciones." alt="" coords="160,83,243,112"/>
+<area shape="rect" id="node7" href="$_isr_imp_8c.html" title="Se implementan las ISR de las diferentes interrupciones." alt="" coords="267,83,333,112"/>
+</map>

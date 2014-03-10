@@ -1,0 +1,8 @@
+<map id="main" name="main">
+<area shape="rect" id="node3" href="$_func_imp_8c.html#a5adcab0b538029aa93ac79c08adc129c" title="Dibuja en la pantalla lo referente a puntuacion y otros elementos." alt="" coords="117,5,203,35"/>
+<area shape="rect" id="node5" href="$_func_imp_8c.html#a157c474ae4fe6c57d6e4f44c03433380" title="Determina si el juego termino." alt="" coords="121,59,199,88"/>
+<area shape="rect" id="node7" href="$_func_imp_8c.html#a118c42a8768fb540c50d46a36b3f4182" title="Dibuja en la pantalla una barra de cargando." alt="" coords="119,112,201,141"/>
+<area shape="rect" id="node9" href="$_func_imp_8c.html#aaaec872ecf91a6c7589073cb18339742" title="Despliega el menu de seleccion de dificultad del juego." alt="" coords="133,165,187,195"/>
+<area shape="rect" id="node11" href="$_func_imp_8c.html#a8fd57c5eb607ea65e6cfb590c96d2f71" title="Reinicializa las variables necesarias para poder empezar el juego nuevamente." alt="" coords="107,219,213,248"/>
+<area shape="rect" id="node13" href="$_func_imp_8c.html#aca6b39fe03b54f7aa648bcda0db9576d" title="Rellena un arreglo de casillas dependiendo del nivel seleccionado Rellena la pantalla segun el modo s..." alt="" coords="105,272,215,301"/>
+</map>

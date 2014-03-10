@@ -1,0 +1,5 @@
+Sliding Puzzle es un juego de rompecabezas que consiste en organizar un conjunto 
+de letras en orden alfabetico, en una matriz 3x3.
+
+Sliding Puzzle fue desarrollado en lenguaje c con la variante de programación para microcontroladores, 
+utilizando Atmel estudio. 

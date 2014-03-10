@@ -1,0 +1,25 @@
+var structjuego =
+[
+    [ "casillaVacia", "structjuego.html#a4a876bcf8347c34c360503f2b6b2d4b8", null ],
+    [ "casillaVacia_Pantalla", "structjuego.html#a17ddeda22b0109618fc839ed42b5b093", null ],
+    [ "Contenido_seleccion", "structjuego.html#a3f550b96ef03083dffdbe9f21ebbad09", null ],
+    [ "control", "structjuego.html#a108f367dafafa0bba495f2ede4478a9f", null ],
+    [ "cursorPantalla", "structjuego.html#a3eb0398c784a15bede46c57fd18d779b", null ],
+    [ "id_a_Mover", "structjuego.html#a1dcfd75190bd74a29b74f636f76bd5e5", null ],
+    [ "idDestino", "structjuego.html#a193e4aefee07545cc76e750cc437aad8", null ],
+    [ "indiceArreglo", "structjuego.html#a87f5286bc53f50ed492c916239d2cd52", null ],
+    [ "inGame", "structjuego.html#a5a39d4c89938c5f5c1ebf4cadda1a199", null ],
+    [ "mover", "structjuego.html#a2ef2875ac0af02fbdc99d8020b5ae9df", null ],
+    [ "mover_Pantalla_x", "structjuego.html#a1cc6dad49862d4dfb1c6a42559e90e6c", null ],
+    [ "mover_Pantalla_y", "structjuego.html#a0d8e037d05a3d3780ffaa920a9883fa2", null ],
+    [ "mover_x", "structjuego.html#a8f1ecd7b3cdcaa4b3a906a768fdc35d6", null ],
+    [ "mover_y", "structjuego.html#a0b38b21084c2c9aff3b513aee9cd6674", null ],
+    [ "posCursor", "structjuego.html#a565cc43fc7ab4d804f26b8d56a12e38c", null ],
+    [ "puntuacion", "structjuego.html#a593b9e935af3f8b373edab4a2835442c", null ],
+    [ "puntuacion_pantalla", "structjuego.html#a47ae6a5d5268327d79352019a45da129", null ],
+    [ "resetPushed", "structjuego.html#a1e9d1dde46ce19e2660b4c0af53aa7da", null ],
+    [ "Seleccion_On", "structjuego.html#a81e6c07e41fe1766b0ebe62008d14757", null ],
+    [ "seleccionScreen", "structjuego.html#a5a41ce431f58103fc11a41ff50ee278e", null ],
+    [ "tablero1", "structjuego.html#a522978573cb08903682ba39045e2bf2c", null ],
+    [ "valorCasilla", "structjuego.html#ad8e50c6d1652b39a754fd6d7771d7eab", null ]
+];

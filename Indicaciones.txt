@@ -1,0 +1,4 @@
+Para ver la documentación.
+
+1. Abrir Carpeta doc
+2. Buscar archivo index.html y hacer click en el.
